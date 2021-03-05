@@ -104,8 +104,8 @@ body{
   background-image: url("gambar2.jpg");
   background-size: cover;
   background-position: 0 -108px;
-  border-top: 3px solid blue;
-  border-bottom: 3px solid blue;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 .main{
 	width: 600px;
