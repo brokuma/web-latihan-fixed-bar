@@ -74,10 +74,13 @@ body{
 
 }
 .header{
+  background-image: url("header.jpg");
+	background-size: cover;
   padding: 20px;
   padding-bottom: 10px;
 }
 .header .judul{
+	color:  #ad6f42;
   font-size: 35px;
   font-weight: bold;
 }
@@ -96,7 +99,7 @@ body{
   color: white;
 }
 .pict{
-  margin-top: 5px;
+  margin-top: 0;
   height: 240px;
   background-image: url("gambar2.jpg");
   background-size: cover;
