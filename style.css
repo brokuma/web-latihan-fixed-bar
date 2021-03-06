@@ -61,11 +61,30 @@ table {
 }
 
 /* style */
-
+.top-bar{
+	background-color: #ad6f42;
+	height: 70px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 999;
+}
 .container{
-  width: 970px;
-  margin: auto;
+  width: 960px;
+  margin: 75px auto;
   background-color: #97a7c2;
+	position: relative;
+}
+.ig{
+	width: 90px;
+	height: 90px;
+	background-image: url("iglogo.png");
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	right: 20px;
+	top: 10px;
 }
 body{
   font: 16px/28px arial, sans-serif;
@@ -96,7 +115,7 @@ body{
 }
 .header a:hover{
   background-color: #1db6c4;
-  color: white;
+  color: #ad6f42;
 }
 .pict{
   margin-top: 0;
